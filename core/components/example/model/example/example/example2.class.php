@@ -8,5 +8,16 @@
  */
 
 class Example2 {
-
+ function __construct() {
+     /* @var $modx modX */
+     $this->modx =& $modx;
+     $j = $modx->lexicon('string1');
+     $k = $modx->lexicon('string10~~this is in class example2');
+     $l = $this->modx->lexicon('string11');
+     $m = $this->modx->lexicon('string12');
+     $n = $this->modx->lexicon('string12~~another value from example2');
+     $q = $this->modx->lexicon('string12');
+     $o = $this->modx->lexicon("string13~~this is in example2");
+     $p = $modx->lexicon("string4~~Shouldn't override");
+ }
 }

@@ -29,5 +29,13 @@ class Example3 {
       $c = $modx->getOption('property7', $this->config);
       $d = $modx->getOption('property8', $this->props, null);
 
+      $j = $modx->lexicon('string1');
+      $k = $modx->lexicon('string1~~this "would" be\'s the value');
+      $l = $this->modx->lexicon('string2');
+      $m = $this->modx->lexicon('string1');
+      $n = $this->modx->lexicon('string2~~another value');
+      $o = $this->modx->lexicon("string3~~this can't be the value");
+      $p = $modx->lexicon("string4~~This can't be right");
+
   }
 }

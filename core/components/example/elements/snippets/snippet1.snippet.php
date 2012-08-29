@@ -35,7 +35,17 @@
  * @package example
  **/
 include 'c:\xampp\htdocs\addons\assets\mycomponents\example\core\components\example\model\example\example\example3.class.php';
+$modx->lexicon->load('hello:default');
 $a = $modx->getOption('property1', $scriptProperties, null);
 $b = $scriptProperties['property2'];
 $c = $modx->getOption('property3', $this->config);
 $d = $modx->getOption('property4', $this->props, null);
+
+$j = $modx->lexicon('string1');
+$k = $modx->lexicon('string1~~this "would" be\'s the value');
+$l = $this->modx->lexicon('string2');
+$m = $this->modx->lexicon('string1');
+$n = $this->modx->lexicon('string2~~another value');
+$o = $this->modx->lexicon("string3~~this can't be the value");
+$p = $modx->lexicon("string4~~This can't be right");
+/* xxx */
