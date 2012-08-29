@@ -11,6 +11,10 @@ class Example2 {
  function __construct() {
      /* @var $modx modX */
      $this->modx =& $modx;
+
+     $modx->lexicon->load('example:nofile');
+     $modx->lexicon->load('example:empty');
+
      $j = $modx->lexicon('string1');
      $k = $modx->lexicon('string10~~this is in class example2');
      $l = $this->modx->lexicon('string11');

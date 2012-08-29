@@ -24,6 +24,7 @@ class Example3 {
           * @var $scriptProperties array
        */
 
+      $modx->lexicon->load('en:example:default');
       $a = $this->modx->getOption('property5', $scriptProperties, null);
       $b = $scriptProperties['property6'];
       $c = $modx->getOption('property7', $this->config);

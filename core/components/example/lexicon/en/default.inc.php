@@ -34,3 +34,5 @@
  * @package example
  **/
 
+$_lang['string2'] = 'String2 in Lexicon file';
+$_lang['string4'] = 'String4 in Lexicon file';
