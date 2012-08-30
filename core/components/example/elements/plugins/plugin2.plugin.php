@@ -70,4 +70,5 @@ foreach($strings as $string) {
     $x = $modx->getOption($variable, $this->props, null);
     $x = $modx->getOption('variable1', $this->props, null);
     $x = getProperty('variable2', null);
+    $x = $scriptProperties['pulled_with_scriptProperties'];
 }
