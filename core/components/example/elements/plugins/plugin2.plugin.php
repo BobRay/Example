@@ -67,4 +67,7 @@ foreach($strings as $string) {
         }
         echo "\n" . $class;
     }
+    $x = $modx->getOption($variable, $this->props, null);
+    $x = $modx->getOption('variable1', $this->props, null);
+    $x = getProperty('variable2', null);
 }
