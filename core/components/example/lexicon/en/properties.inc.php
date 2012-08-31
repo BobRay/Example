@@ -34,3 +34,31 @@
  * @package example
  **/
 
+/* Used in properties.snippet1.snippet.php */
+$_lang['Description8'] = '';
+$_lang['Description4'] = '';
+$_lang['Description6'] = '';
+$_lang['Descriptionx'] = 'This is the newest description5';
+$_lang['Description2'] = '';
+$_lang['new_description'] = 'This is the even newer description';
+
+/* Used in properties.chunk1.chunk.php */
+$_lang['chunk_1_prop_1'] = 'Chunk One Prop one';
+
+/*$line = "\$_lang['Description4'] = '';
+\$_lang['Description6'] = '';
+\$_lang['Descriptionx'] = '';
+\$_lang['Description2'] = '';
+\$_lang['Description8'] = '';
+\$_lang['new_description'] = 'This is the new description';";
+$key = 'Descriptionx';
+$value = 'This is the New Description';
+
+$pattern = "/(_lang\[')" . $key . "(']\s*=\s* )''/";
+$replace = "$1$key$2'" . $value . "'";
+
+echo "\nOriginal: \n" . $line;
+$line = preg_replace($pattern, $replace, $line, 1, $count);
+echo "\nCOUNT: " . $count;
+echo "\nChanged: \n" . $line;*/
+
