@@ -49,7 +49,16 @@ $properties = array(
     ),
     'Prop5' => array(
         'name' => 'propertyx',
-        'desc' => 'Descriptionx',
+        'desc' => 'Descriptionx~~This is the newest description5',
+        'type' => 'textfield',
+        'options' => '',
+        'value' => 'Value-Two',
+        'lexicon' => 'Example',
+        'area' => 'Example',
+    ),
+    'Prop6' => array(
+        'name' => 'new_property',
+        'desc' => 'new_description~~This is the even newer description',
         'type' => 'textfield',
         'options' => '',
         'value' => 'Value-Two',
