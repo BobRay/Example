@@ -1,9 +1,7 @@
-Example Extra for MODx Revolution
+Example Repository
 =======================================
 
 
 **Author:** Bob Ray <http://bobsguides.com> [Bob's Guides](http://bobsguides.com)
 
-Documentation is available at [Bob's Guides](http://bobsguides.com/example-tutorial.html)
-
-Example project for MyComponent extra
+This is not a real project. It stores example code used for testing the MyComponent Extra
