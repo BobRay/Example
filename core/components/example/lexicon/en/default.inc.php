@@ -34,25 +34,3 @@
  * @package example
  **/
 
-
-/* used in Snippet1 or its included classes  */
-$_lang['ex_snippet_nf'] = '';
-$_lang['ex_hello'] = '';
-$_lang['ex_file_nf'] = '';
-$_lang['ex_plugin_nf'] = '';
-
-/* used in Template1 */
-$_lang['lexkey'] = 'Lex String';
-
-/* used in C:\xampp\htdocs\addons/assets/mycomponents/example/assets/components/example/js/example.js */
-$_lang['ex_js_key'] = '';
-
-/* System Setting Names and Descriptions */
-$_lang['setting_example_system_setting1'] = 'Example Setting One';
-$_lang['setting_example_system_setting1_desc'] = 'Description for setting one';
-$_lang['setting_example_system_setting2'] = 'Example Setting Two';
-$_lang['setting_example_system_setting2_desc'] = 'Description for setting two';
-
-/* used in C:\xampp\htdocs\addons/assets/mycomponents/example/_build/data/resources/resource1.content.html */
-$_lang['ex_resource_lexkey'] = 'Resource Lex Ley';
-$_lang['ex_resource_lexkey2'] = 'Resource Lex Ley two';

@@ -35,7 +35,3 @@
  **/
 
 
-
-/* Used in properties.snippet1.snippet.php */
-$_lang['ex_prop1_desc'] = 'Property one description';
-$_lang['ex_prop2_desc'] = 'Property two description';
