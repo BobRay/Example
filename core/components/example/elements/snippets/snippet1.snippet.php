@@ -35,7 +35,7 @@
  **/
 include 'c:\xampp\htdocs\addons\assets\mycomponents\example\core\components\example\model\example\example\example3.class.php';
 $modx->lexicon->load('example:default');
-$modx->lexicon->load('example:forms');
+
 $a = $modx->getOption('property1', $scriptProperties, null);
 $b = $scriptProperties['property2'];
 $c = $modx->getOption('property3', $this->config);
