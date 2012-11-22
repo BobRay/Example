@@ -1,9 +1,10 @@
 <?php
+
 /**
  * Snippet1 snippet for Example extra
  *
  * Copyright 2012 by Bob Ray <http://bobsguides.com>
- * Created on 11-21-2012
+ * Created on 08-21-2012
  *
  * Example is free software; you can redistribute it and/or modify it under the
  * terms of the GNU General Public License as published by the Free Software
@@ -24,7 +25,7 @@
 /**
  * Description
  * -----------
- * Description for Snippet one
+ * [[+description]]
  *
  * Variables
  * ---------
@@ -33,11 +34,19 @@
  *
  * @package example
  **/
-
-// include 'example.class.php'
-
+include 'c:\xampp\htdocs\addons\assets\mycomponents\example\core\components\example\model\example\example\example3.class.php';
 $modx->lexicon->load('example:default');
+$modx->lexicon->load('example:forms');
+$a = $modx->getOption('property1', $scriptProperties, null);
+$b = $scriptProperties['property2'];
+$c = $modx->getOption('property3', $this->config);
+$d = $modx->getOption('property4', $this->props, null);
 
-$msg1 = $modx->lexicon('ex_hello~~Hello World');
-$msg2 = $modx->lexicon('ex_file_nf~~File Not Found');
-$msg3 = $modx->lexicon('ex_plugin_nf~~Plugin Not Found');
+$j = $modx->lexicon('string1');
+$k = $modx->lexicon('string1~~this "would" be\'s the value');
+$l = $this->modx->lexicon('string2');
+$m = $this->modx->lexicon('string1');
+$n = $this->modx->lexicon('string2~~another value');
+$o = $this->modx->lexicon("string3~~this can't be the value");
+$p = $modx->lexicon("string4~~This can't be right");
+/* xxx */
