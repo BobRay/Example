@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Snippet1 snippet for Example extra
  *
@@ -42,11 +41,11 @@ $b = $scriptProperties['property2'];
 $c = $modx->getOption('property3', $this->config);
 $d = $modx->getOption('property4', $this->props, null);
 
-$j = $modx->lexicon('string1');
-$k = $modx->lexicon('string1~~this "would" be\'s the value');
-$l = $this->modx->lexicon('string2');
-$m = $this->modx->lexicon('string1');
-$n = $this->modx->lexicon('string2~~another value');
-$o = $this->modx->lexicon("string3~~this can't be the value");
-$p = $modx->lexicon("string4~~This can't be right");
+$j = $modx->lexicon('ex_string1~~String One');
+$k = $modx->lexicon('ex_string2~~String Two');
+$l = $this->modx->lexicon('ex_string2~~string Two');
+$m = $this->modx->lexicon('ex_string1~~String one');
+$n = $this->modx->lexicon('ex_string2~~String Two');
+$o = $this->modx->lexicon("ex_string3~~String Three");
+$p = $modx->lexicon("ex_string4~~String Four");
 /* xxx */
