@@ -21,8 +21,11 @@
  * @package example
  */
 
-include 'c:\xampp\htdocs\addons\assets\mycomponents\example\core\components\example\model\example\example\example3.class.php';
-include 'c:\xampp\htdocs\addons\assets\mycomponents\example\core\components\example\model\example\example\example2.class.php';
+
+$modx->lexicon->load('example:default');
+
+include 'c:\xampp\htdocs\addons\assets\mycomponents\example\core\components\example\model\example\example3.class.php';
+include 'c:\xampp\htdocs\addons\assets\mycomponents\example\core\components\example\model\example\example2.class.php';
  class Example {
     /** @var $modx modX */
     public $modx;
