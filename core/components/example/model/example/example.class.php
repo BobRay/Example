@@ -36,7 +36,8 @@ include 'c:\xampp\htdocs\addons\assets\mycomponents\example\core\components\exam
     {
         $this->modx =& $modx;
         $this->props =& $config;
-
+        $x = $this->modx->lexicon('string1~~Hello');
+        $y = $this->modx->lexicon('string2~~Goodbye');
 
     }
 
