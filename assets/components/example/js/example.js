@@ -18,3 +18,7 @@
  * Place, Suite 330, Boston, MA 02111-1307 USA
  * @package example
  */
+
+x = _('string1~~Hello');
+y = _('string2~~Goodbye');
+z = _('string3');
